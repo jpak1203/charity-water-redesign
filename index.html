@@ -1,0 +1,166 @@
+<!doctype html5>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>charity: water</title>
+    <meta name="description" content="charity: water redesign for awareness">
+    <meta name="author" content="Justin Pak">
+    
+    <link rel="shortcut icon" type="image/png" href="imgs/favicon.png"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    
+    <!-- LOGO -->
+    <div id="homepage">
+        <img id="logo" src="imgs/charity-water-logo.png"/>
+        <h1 id="logo-written">charity: water</h1>
+    </div>
+
+    <!-- FALLING WATER -->
+    <div id="target">
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="15%" style="position:absolute; top:800px; left:25%; transform:rotate(5deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="10%" style="position:absolute; top:1250px; left:10%; transform:rotate(8deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="12%" style="position:absolute; top:1100px; left:40%; transform:rotate(3deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="8%" style="position:absolute; top:1600px; left:30%; transform:rotate(5deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="6%" style="position:absolute; top:1800px; left:15%; transform:rotate(8deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="4%" style="position:absolute; top:2150px; left:2%; transform:rotate(12deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="3%" style="position:absolute; top:2050px; left:23%; transform:rotate(5deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="2%" style="position:absolute; top:2400px; left:8%; transform:rotate(8deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="2%" style="position:absolute; top:2700px; left:2%; transform:rotate(12deg)";/>
+        <img class="bg-raindrop" src="imgs/raindrop.png" width="2%" style="position:absolute; top:3200px; left:4%; transform:rotate(10deg)";/>
+    </div>
+
+    <!-- MISSION STATEMENT -->
+    <h1 id="mission-statement"><em>1 in 10</em> people <u>lack</u> access to <u>clean water</u>. We’re on a mission to change that. Here’s how:</h1>
+
+    <!-- HOW TO SECTION -->
+    <div id="sustainable">
+        <img class="raindrop" src="imgs/raindrop.png" />
+        <div class="section">
+            <img src="imgs/howtohelp/sustainable.png"/>
+            <h2>SUSTATINABLE PROJECTS</h2>
+            <p>We invest in forming strong water committees, partnering with local government, and training mechanics to perform repairs.</p>
+            <a href="#"><strong>LEARN MORE</strong></a>
+        </div>
+    </div>
+
+    <div id="localpartners">
+        <img class="raindrop" src="imgs/raindrop.png" />
+        <div class="section">
+            <img src="imgs/howtohelp/local-partners.png" />
+            <h2>LOCAL PARTNERS</h2>
+            <p>We partner with local organizations around the world who are providing long-lasting water and sanitation services.</p>
+            <a href="#"><strong>LEARN MORE</strong></a>
+        </div>
+    </div>
+
+    <div id="prove">
+        <img class="raindrop" src="imgs/raindrop.png" />
+        <div class="section">
+            <img src="imgs/howtohelp/prove.png" />
+            <h2>WE PROVE EVERY PROJECT</h2>
+            <p>We prove and monitor the projects you fund with GPS coordinates and remote sensors to ensure water is always flowing.</p>
+            <a href="#"><strong>LEARN MORE</strong></a>
+        </div>
+    </div>
+
+    <div id="donor-info">
+        <div id="donor-message">
+            <img id="hunnid" src="imgs/howtohelp/hunnid.png" />
+            <h2 id="donor-p">Private donors cover our operating costs so 100% of your donation will bring clean water to people in need. <a href="#">Learn more.</a></h2>
+        </div>
+    </div>
+
+    <div id="give-monthly">
+        <h3>Every single penny will help bring clean water to communities in need.</h3>
+        <a href="%">Give Monthly</a>
+    </div>
+
+    <img class="bg-waves" src="imgs/waves/wave1.png" width="130%" style="position:absolute; top:3650px; left:-10%; transform:rotate(-20deg)"/>
+    <img class="bg-waves" src="imgs/waves/wave2.png" width="90%" style="position:absolute; top:4650px; left:-10%;"/>
+    <img class="bg-waves" src="imgs/waves/wave3.png" width="80%" style="position:absolute; top:4250px; left:30%; transform:rotate(-25deg)"/>
+
+
+
+    <!-- HELP / VIDEO SECTION -->
+    <div id="help-message">
+        <h3>WITH YOUR HELP</h3>
+        <h2>We’ve funded <span class="back-drop">28,389</span> water projects for <span class="back-drop">8.2 million</span> people around the world.</h2>
+        <a href="#">Our Projects</a>
+    </div>
+
+    <iframe id="vid" src="https://player.vimeo.com/video/157474326" width="780px" height="440px" style="border:10px dashed #f7cb47" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    <!-- SUBSCRIBE SECTION -->
+    <form id="subscribe">
+        <h3>SUBSCRIBE TO OUR MAILING LIST</h3>
+        <input type="text" name="fullname" placeholder="Full Name" />
+        <input type="email" name="email" placeholder="E-mail" />
+        <input type="submit" value="SUBMIT" />
+    </form>
+
+    <div id="get-involved">
+        <h2>Learn how to get involved</h2>
+        <i class="arrow-down"></i>
+    </div>
+
+    <!-- JARS GRID SECTION -->
+    <div id="grid-jars" >
+        <div class="one">
+            <div class="info">
+                <h2>Do something crazy to raise money for clean water.</h2>
+                <a href="#">FUNDRAISE</a>
+            </div>
+        </div>
+        <div class="two">
+            <div class="info">
+                <h2>Give $30 and you can give one person clean water.</h2>
+                <a href="#">DONTATE NOW</a>
+            </div>
+        </div>
+        <div class="three">
+            <div class="info">
+                <h2>Experience how clean water is changing lives around the world.</h2>
+                <a href="#">WATCH OUR VIDEOS</a>
+            </div>
+        </div>
+        <div class="four">
+            <div class="info">
+                <h2>Ask for donations instead of gifts and your birthday will change lives.</h2>
+                <a href="#">PLEDGE BIRTHDAY</a>
+            </div>
+        </div>
+        <div class="five">
+            <div class="info">
+                <h2>Help us solve the water crisis by joining The Spring, our monthly giving community.</h2>
+                <a href="#">GIVE MONTHLY</a>
+            </div>
+        </div>
+        <div class="six">
+            <div class="info">
+                <h2>For $10,000 or more you can fully fund a water project for a community or a school.</h2>
+                <a href="#">SPONSER A PROJECT</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div id="footer">
+        <img src="imgs/footer-water.png" />
+            <div id="why-water">
+                <h3>WHY WATER?</h3>
+                <h2>663 million people drink dirty water. Learn how access to clean water can improve health, boost local economies, empower women, and give kids more time in school.</h2>
+                <a href="#">DONATE NOW</a>
+            </div>
+    </div>
+</body>
+</html>
