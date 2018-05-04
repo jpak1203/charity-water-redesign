@@ -64,6 +64,7 @@ body {
     top:3200px;
     left:37%;
     width:50%;
+    z-index: 1;
 }
 
 .section {
