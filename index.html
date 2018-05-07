@@ -3,6 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>charity: water</title>
     <meta name="description" content="charity: water redesign for awareness">
@@ -10,10 +12,12 @@
     
     <link rel="shortcut icon" type="image/png" href="imgs/favicon.png"/>
     
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/background.css" />
     
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -26,22 +30,24 @@
     </div>
 
     <!-- FALLING WATER -->
-    <div id="target">
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="15%" style="position:absolute; top:800px; left:25%; transform:rotate(5deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="10%" style="position:absolute; top:1250px; left:10%; transform:rotate(8deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="12%" style="position:absolute; top:1100px; left:40%; transform:rotate(3deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="8%" style="position:absolute; top:1600px; left:30%; transform:rotate(5deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="6%" style="position:absolute; top:1800px; left:15%; transform:rotate(8deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="4%" style="position:absolute; top:2150px; left:2%; transform:rotate(12deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="3%" style="position:absolute; top:2050px; left:23%; transform:rotate(5deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="2%" style="position:absolute; top:2400px; left:8%; transform:rotate(8deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="2%" style="position:absolute; top:2700px; left:2%; transform:rotate(12deg)";/>
-        <img class="bg-raindrop" src="imgs/raindrop.png" width="2%" style="position:absolute; top:3200px; left:4%; transform:rotate(10deg)";/>
+    <div id="falling-water">
+        <img id="drop1" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop2" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop3" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop4" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop5" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop6" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop7" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop8" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop9" class="bg-raindrop" src="imgs/raindrop.png" />
+        <img id="drop10" class="bg-raindrop" src="imgs/raindrop.png" />
     </div>
     
-    <img class="bg-waves" src="imgs/waves/wave1.png" width="130%" style="position:absolute; top:3650px; left:-10%; transform:rotate(-20deg)"/>
-    <img class="bg-waves" src="imgs/waves/wave2.png" width="90%" style="position:absolute; top:4650px; left:-10%;"/>
-    <img class="bg-waves" src="imgs/waves/wave3.png" width="80%" style="position:absolute; top:4250px; left:30%; transform:rotate(-25deg)"/>
+    <div id="waves">
+        <img id="wave1" class="bg-waves" src="imgs/waves/wave1.png" />
+        <img id="wave2" class="bg-waves" src="imgs/waves/wave2.png" />
+        <img id="Wave3" class="bg-waves" src="imgs/waves/wave3.png" />
+    </div>
 
 
     <!-- MISSION STATEMENT -->
@@ -98,7 +104,7 @@
         <a href="#">Our Projects</a>
     </div>
 
-    <iframe id="vid" src="https://player.vimeo.com/video/157474326" width="780px" height="440px" style="border:10px dashed #f7cb47" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe id="vid" src="https://player.vimeo.com/video/157474326" width="780px" height="440px" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
     <!-- SUBSCRIBE SECTION -->
     <form id="subscribe">
