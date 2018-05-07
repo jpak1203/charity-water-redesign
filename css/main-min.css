@@ -214,20 +214,21 @@ body {
     background-image: url(../imgs/back-stylized.png);
     background-position: left top;
     background-size:100%;
-    padding:0.5% 0.7%;
+    padding:0.2% 0.7%;
     background-repeat: no-repeat;
-    font-size:35px;
+    font-size:30px;
    -webkit-text-stroke-width: 0.5px;
    -webkit-text-stroke-color: #211e1a;
 }
 
 #help-message h2 {
-    font-size:30px;
+    font-size:20px;
+    padding-bottom:15px;
 }
 
 #help-message h3 {
     font-size:18px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     color: #74afe8;
 }
 
@@ -255,11 +256,11 @@ body {
 #subscribe {
     color: #74afe8;
     letter-spacing: 5px;
-    font-size:18px;
+    font-size:15px;
 }
 
 #subscribe input {
-    font-size: 14px;
+    font-size: 2vw;
 }
 
 #subscribe input[type=text], input[type=email] {
@@ -451,29 +452,29 @@ i {
     position:absolute;
     text-align:center;
     left: 50%;
-    top:50px;
+    top:30px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 
 #why-water h3 {
-    font-size:18px;
-    letter-spacing: 10px;
+    font-size:3.2vw;
+    letter-spacing: 8px;
 }
 
 #why-water h2 {
-    font-size:13px;
+    font-size:3vw;
     padding: 1% 3% 2% 3%;
 }
 
 #why-water a {
-    font-size:20px;
+    font-size:2.8vw;
     text-decoration: none;
     background-color: #74afe8;
     padding:1%;
     color: white;
     text-decoration: none;
-    border-radius:5px;
+    border-radius:2px;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
 }
