@@ -1,5 +1,5 @@
 /* Regular Screen styles */
-@media screen and (min-width: 1100px) and (max-width:1600px) {
+@media screen and (min-width: 900px) and (max-width:1600px) {
     #falling-water {
         position:relative;
         top:800px;
