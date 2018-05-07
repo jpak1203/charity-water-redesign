@@ -11,6 +11,7 @@ body {
     background-color: #211e1a;
     overflow-x:hidden;
     color: #211e1a;
+    width: 100%;
 }
 
 /* Absolute minimum res styles */
