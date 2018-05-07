@@ -17,7 +17,7 @@ body {
 /* Absolute minimum res styles */
 #logo-written {
     position: absolute;
-    color:#efefef;
+    color:blue;
     font-family: 'Cormorant Garamond', sans-serif;
     letter-spacing: 3px;
     font-size: 3vw;
