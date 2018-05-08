@@ -1,35 +1,35 @@
 
 /* Regular Screen styles */
-@media screen and (min-width: 800px) and (max-width:1100px) {
+@media screen and (min-width: 1600px) {
     #logo-written {
         position: absolute;
         color:#efefef;
         font-family: 'Cormorant Garamond', sans-serif;
-        letter-spacing: 12px;
-        font-size: 40px;
+        letter-spacing: 18px;
+        font-size: 4vw;
         left:27%;
-        top:450px;
+        top:60%;
         width:50%;
     }
 
     #logo {
         position: absolute;
         left:40%;
-        top:5px;
+        top:2%;
         transform: rotate(-25deg);
         width:80%;
     }
 
     #mission-statement {
         position: absolute;
-        top: 1500px;
+        top: 160%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
         width:75%;
         text-align: center;
         color:#efefef;
-        font-size:28px;
+        font-size:2vw;
     }
 
     .raindrop {
@@ -46,30 +46,31 @@
 
     #sustainable {
         position:absolute;
-        top:1600px;
-        left:45%;
-        width:60%;
+        top:180%;
+        left:50%;
+        width:50%;
         margin-right: 0;
         transform: none;
     }
 
+
     #localpartners {
         position:absolute;
-        top:2400px;
-        left:-10%;
-        width:60%;
+        top:260%;
+        left:-5%;
+        width:50%;
         margin-right: 0;
         transform: none;
     }
 
     #prove {
         position:absolute;
-        top:3200px;
-        left:32%;
-        width:60%;
-        z-index: 1;
+        top:340%;
+        left:37%;
+        width:50%;
         margin-right: 0;
         transform: none;
+        z-index: 1;
     }
 
     .section {
@@ -88,13 +89,13 @@
     }
 
     .section p {
-        font-size:1.5vw;
-        letter-spacing: 1px;
+        font-size:1.2vw;
+        letter-spacing: 2px;
         padding:3%;
     }
 
     .section a {
-        font-size:1.7vw;
+        font-size:1.5vw;
         text-decoration: none;
         background-color: #74afe8;
         padding:3%;;
@@ -116,7 +117,7 @@
         position:absolute;
         width:50%;
         text-align:center;
-        top:2800px;
+        top:300%;
         left: 68%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -127,7 +128,7 @@
     }
 
     #donor-message h2 {
-        font-size:20px;
+        font-size:1.5vw;
         color: #efefef;
     }
 
@@ -145,7 +146,7 @@
         position:absolute;
         width:40%;
         text-align:center;
-        top:3500px;
+        top:380%;
         left: 23%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -153,7 +154,7 @@
 
     #give-monthly h3 {
         padding:4%;
-        font-size:18px;
+        font-size:1.2vw;
         letter-spacing:2px;
         line-height: 25px;
         color: #efefef;
@@ -163,8 +164,8 @@
         text-decoration: none;
         color:#efefef;
         border:2px dashed #f7cb47;
-        padding:3% 5%;
-        font-size:2vw;
+        padding:3%;
+        font-size:1.5vw;
         font-weight:bold;
         letter-spacing: 2px;
         transition: all 0.2s ease-in-out;
@@ -176,7 +177,7 @@
 
     #help-message {
         position:absolute;
-        top:4200px;
+        top:450%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -190,7 +191,7 @@
         color:#efefef;
         border:2px dashed #f7cb47;
         padding:2%;
-        font-size:1.3vw;
+        font-size:1.2vw;
         font-weight:bold;
         letter-spacing: 2px;
         transition: all 0.2s ease-in-out;
@@ -207,35 +208,34 @@
         background-size:100%;
         padding:0.5% 0.7%;
         background-repeat: no-repeat;
-        font-size:3vw;
+        font-size:2.2vw;
        -webkit-text-stroke-width: 0.5px;
        -webkit-text-stroke-color: #211e1a;
     }
 
     #help-message h2 {
-        font-size:35px;
+        font-size:2.2vw;
     }
 
     #help-message h3 {
-        color:#efefef; 
-        font-size:18px;
+        color:#efefef;
+        font-size:1.3vw;
         letter-spacing: 15px;
     }
 
     #vid {
         position:absolute;
-        top:4600px;
+        top:500%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
         border:none;
-        width:80%;
     }
 
     #subscribe {
         position:absolute;
         text-align:center;
-        top:4930px;
+        top:540%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -245,11 +245,11 @@
     #subscribe {
         color: #efefef;
         letter-spacing: 8px;
-        font-size:20px;
+        font-size:1.2vw;
     }
 
     #subscribe input {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 
     #subscribe input[type=text], input[type=email] {
@@ -305,12 +305,12 @@
 
     #get-involved {
         position:absolute;
-        top: 5200px;
+        top: 570%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
         color: #efefef;
-        font-size:15px;
+        font-size:1vw;
         letter-spacing: 4px;
         text-align:center;
     }
@@ -331,7 +331,7 @@
     #grid-jars {
         position:absolute;
         width:90%;
-        top: 5700px;
+        top: 670%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -339,8 +339,8 @@
         color:white;
         text-align:center;
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: minmax(10px, 350px);
-        grid-gap: 5%;
+        grid-auto-rows: minmax(10px, 780px);
+        grid-gap: 0.5%;
         grid-row-gap: 3em;
     }
 
@@ -398,17 +398,17 @@
 
     .info {
         width:100%;
-        padding: 135px 35px 0 35px;
+        padding: 300px 50px 0 50px;
     }
 
     .info h2 {
-        font-size:17px;
+        font-size:1.2vw;
         padding-bottom:15px;
         color:#211e1a;
     }
 
     .info a {
-        font-size:1.2vw;
+        font-size:1.1vw;
         text-decoration: none;
         background-color: #74afe8;
         padding:3%;
@@ -425,7 +425,7 @@
 
     #footer {
         position:absolute;
-        top:6500px;
+        top:820%;
         width:100%;
     }
 
@@ -447,17 +447,17 @@
     }
 
     #why-water h3 {
-        font-size:20px;
+        font-size:2vw;
         letter-spacing: 10px;
     }
 
     #why-water h2 {
-        font-size:18px;
+        font-size:1.5vw;
         padding: 1% 3% 2% 3%;
     }
 
     #why-water a {
-        font-size:2vw;
+        font-size:1.7vw;
         text-decoration: none;
         background-color: #74afe8;
         padding:1%;
